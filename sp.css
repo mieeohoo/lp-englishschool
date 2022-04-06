@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1440px) {
+
+  /* 共通＝＝＝＝＝＝＝＝＝＝＝＝ */
+  /* #reason h3::after {
+    right: 46.5%;
+  }
+
+  #about-school h3::after {
+    right: 46.2%;
+  }
+
+  h3::after {
+    right: 45%;
+  } */
+}
+
+@media screen and (max-width: 1024px) {
+  .key-imgs {
+    height: 520px;
+  }
+
+  /* h3::after {
+    right: 44.5%;
+  } */
+}
+
+@media screen and (max-width: 770px) {
+
+  /* 共通＝＝＝＝＝＝＝＝＝＝＝＝ */
+  /* 各セクションタイトル */
+  /* h3::after {
+    width : 100px;
+    height: 2px;
+    right : 43%;
+  } */
+
+  h4 {
+    font-size: 1.3rem;
+    ;
+  }
+
+  /* 「無料体験に申し込む」ボタン */
+  .free-apply::after {
+    height: 25px;
+  }
+
+  /* 「無料体験はこちら」ボタン」 */
+  .free-apply-btn {
+    width: 340px;
+    top  : 230px;
+  }
+
+  /* main=========================== */
+  .key-imgs {
+    height: 360px;
+  }
+
+  .key-text {
+    top: 150px;
+  }
+
+  .key-text h2 {
+    font-size: 3rem;
+
+  }
+
+  /* 「レッスン開始までの流れ」 */
+  .flow-container .about-flow li {
+    margin-left: 200px;
+  }
+
+  /* footer=================== */
+  .map iframe {
+    width : 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+
+  /* 共通＝＝＝＝＝＝＝＝＝＝＝＝ */
+  h1.sitetitle {
+    font-size  : 3.0rem;
+    line-height: 0;
+  }
+
+  /* 各セクションタイトル */
+  /* h3::after {
+    width: 90px;
+    right: 40%;
+  } */
+
+  /* 「無料体験に申し込む」ボタン */
+  .free-apply::after {
+    height: 15px;
+    bottom: -20%;
+  }
+
+  /* 「無料体験はこちら」ボタン」 */
+  .free-apply-btn {
+    width: 93%;
+    top  : 360px;
+  }
+
+  /* main====================== */
+  main {
+    padding-top: 15%;
+  }
+
+  /* キー画像 */
+  .key-imgs {
+    width : 100%;
+    height: 300px;
+  }
+
+  .key-imgs li {
+    width: 100%;
+  }
+
+  .key-text {
+    top: 280px;
+  }
+
+  /* 「選ばれる理由」 */
+  #reason {
+    margin-top: 150px;
+  }
+
+  .native-teachers.flex,
+  .onine-lesson.flex,
+  .skills.flex,
+  .step-by-step.flex {
+    width: 100%;
+  }
+
+  .native-teachers,
+  .skills {
+    border-top-right-radius   : 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .onine-lesson,
+  .step-by-step {
+    border-top-left-radius   : 0;
+    border-bottom-left-radius: 0;
+  }
+
+  /* 「受講生の声」 */
+  .voice-content.flex {
+    flex-direction: column-reverse;
+    margin        : 30px 0;
+  }
+
+  .voice1 .student-voice::before,
+  .voice2 .student-voice::before,
+  .voice3 .student-voice::before {
+    content         : "";
+    position        : absolute;
+    top             : 90%;
+    left            : 45%;
+    width           : 20px;
+    height          : 20px;
+    background-color: #E9F1FB;
+    transform       : rotate(-45deg);
+  }
+
+  .student-voice {
+    width: 90%;
+  }
+
+  /* 「スクールの概要」 */
+  .about-school-content.flex {
+    flex-direction: column;
+  }
+
+  .about-course,
+  .about-curriculum,
+  .about-teachers,
+  .about-flow {
+    width : 100%;
+    height: 265px;
+  }
+
+  .about-flow ol li {
+    margin-left: 40px;
+  }
+
+  /* 「カリキュラム」 */
+  .cc-contents.flex {
+    flex-direction: column;
+  }
+
+  .cc-content {
+    width : 100%;
+    height: 150px;
+  }
+
+  /* 「スタッフ紹介」 */
+  .teacher.flex,
+  .teacher2.flex {
+    flex-direction: column;
+  }
+
+  .teacher img,
+  .teacher2 img {
+    width: 100%;
+  }
+
+  .introduction {
+    width        : 100%;
+    margin-bottom: 15px;
+  }
+
+  .introduction h4 {
+    margin-bottom: 5px;
+  }
+
+  /* 「レッスン開始までの流れ」 */
+  .flow-container .about-flow li {
+    margin-left: 60px;
+  }
+  
+  /* footer=================== */
+  .footer-abc.flex {
+    flex-direction: column;
+  }
+
+  .school-name,
+  .footer-menu,
+  .school-info {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .footer-abc h6 {
+    margin-bottom: 5px; 
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  /* 共通＝＝＝＝＝＝＝＝＝＝＝＝ */
+  h1.sitetitle {
+    font-size  : 2.0rem;
+    line-height: 0;
+  }
+
+  /* 各セクションタイトル */
+  h3 {
+    margin: 30px auto 30px auto;
+
+  }
+
+  /* h3::after {
+    width: 90px;
+    right: 35%;
+  } */
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  /* メニューボタン */
+  #menu-btn {
+    width : 35px;
+    height: 35px;
+  }
+
+  #menu-btn::before,
+  #menu-btn::after {
+    width : 24px;
+    height: 2px;
+  }
+
+  .open #menu-btn::before {
+    transform: translateY(6px) rotate(-45deg);
+  }
+
+  .open #menu-btn::after {
+    transform: translateY(-6px) rotate(45deg);
+  }
+
+  /* 「無料体験に申し込む」ボタン */
+  .free-apply {
+    padding: 3%;
+  }
+
+  .free-apply::after {
+    height: 10px;
+    bottom: -20%;
+  }
+
+  /* 「無料体験はこちら」ボタン
+    （メイン画像） */
+  .free-apply-btn {
+    top: 300px;
+
+  }
+
+  /* main======================= */
+  .key-text {
+    top: 220px;
+  }
+
+  /* 「選ばれる理由」 */
+  #reason {
+    margin-top: 50px;
+  }
+
+  .reason-container .material-icons {
+    font-size: 6rem;
+  }
+
+  /* 「レッスン開始までの流れ」 */
+  .flow-container .about-flow li {
+    font-size  : 1.8rem;
+    margin-left: 0px;
+  }
+}
