@@ -418,6 +418,10 @@ main {
 }
 
 /* 「選ばれる理由」 */
+#reason {
+  margin-top: 100px;
+}
+
 .reason-container.flex {
   flex-wrap       : wrap;
   justify-content : space-between;
