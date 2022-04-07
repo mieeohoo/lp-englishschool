@@ -382,6 +382,7 @@ main {
 }
 
 .key-imgs li img {
+  max-height: 800px;
   object-fit: cover;
 }
 
@@ -418,10 +419,6 @@ main {
 }
 
 /* 「選ばれる理由」 */
-#reason {
-  margin-top: 100px;
-}
-
 .reason-container.flex {
   flex-wrap       : wrap;
   justify-content : space-between;
