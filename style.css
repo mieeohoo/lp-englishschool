@@ -328,7 +328,7 @@ main {
 
 /* キー画像 */
 #keyvisual {
-  max-height   : 720px;
+  max-height   : 700px;
   position     : relative;
   margin-bottom: 50px;
 }
@@ -349,7 +349,7 @@ main {
 
 .key-imgs {
   width : 75%;
-  height: 720px;
+  height: 700px;
 }
 
 .key-imgs li {
